@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color:black;
+    font-family: "Yuji Mai", serif;
+}
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right:10px;
+    margin-left: 10px;
+    color:black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+
+#main{
+    background: url(image/MAIN1.png) ;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    background-position: 50% 50%;
+    padding-top: 150px;
+}
+.title-text0{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.title-text1{
+    color:rgb(255, 72, 102);
+}
+.title-text2{
+    font-size: 1rem;
+    color: gray;
+}
+
+.h4{
+    font-size: 1rem;
+
+}
+/* about */
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin:2rem 0;
+    background: pink;
+}
+.about .row{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row .photo-container{
+    flex: 1 1 40rem;
+    position:relative;
+}
+.about .row .photo-container photo{
+    width:100%;
+    border:1.5rem solid #fff;
+    border-radius:.5rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    height:100%;
+    object-fit:cover;
+    
+}
+.about .row .content{
+    flex: 1 1 35rem;
+}
+.about .row .photo-container h3{
+    position: absolute;
+    transform: translateY(-50%);
+    top:50%;
+    font-size: 3rem;
+    color:black;
+    background: white;
+    width:100%;
+    padding:1rem 1rem;
+    text-align:center;
+    mix-blend-mode:screen;
+}
+.about .row .content p{
+    font-size: 1rem;
+    color:gray;
+}
+.about .row .content a{
+    height: 45px;
+    width:25%;
+    border:none;
+    outline: none;
+    background-color: black;
+    font-weight: 600;
+    border-radius: 30px;
+    color:white;
+}
+/* akhir about */
+/* products */
+
+.tag{
+    position:absolute;
+    top:1rem; left:1rem;
+    padding:.7rem 1 rem;
+    font-size:1rem;
+    color:pink;
+    background-color: white;
+}
+/* akhir products */
+
+

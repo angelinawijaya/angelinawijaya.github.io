@@ -1,0 +1,25 @@
+.btnp{
+    height:45px;
+    width:35%;
+    border:none;
+    outline:none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.tag{
+    position:absolute;
+    top:1rem; left:1rem;
+    padding:.7rem 1 rem;
+    font-size:1rem;
+    color:pink;
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+  
+ 
+    background: pink;
+}
