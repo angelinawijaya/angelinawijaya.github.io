@@ -22,6 +22,8 @@
     background: url(image/MAIN1.png) ;
     width:100%;
     padding-top: 150px;
+   
+    background-size: 100% ;
 }
 .title-text0{
     font-size: 4rem;
@@ -55,6 +57,7 @@
 .about .row .photo-container{
     flex: 1 1 40rem;
     position:relative;
+    margin: 0 auto;
 }
 
 .about .row .content{
